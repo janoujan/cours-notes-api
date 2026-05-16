@@ -11,36 +11,44 @@ Une API simple construite avec Express.js pour servir des notes de cours au form
 ## 🛠️ Installation
 
 1. **Cloner le dépôt** :
+
    ```bash
    git clone https://github.com/janoujan/cours-notes-api.git
    cd cours-notes-api
    ```
 
 2. **Installer les dépendances** :
+
    ```bash
    npm install
    ```
 
 3. **Démarrer le serveur** :
+
    ```bash
    npm start
    ```
+
    Le serveur sera accessible sur [http://localhost:3003](http://localhost:3003).
 
 ## 📖 Utilisation de l'API
 
 ### 1. Vérifier le fonctionnement
+
 - **URL** : `GET /`
 - **Description** : Message de bienvenue simple pour confirmer que l'API est en ligne.
 
 ### 2. Lister toutes les notes
+
 - **URL** : `GET /notes`
 - **Réponse** : Un tableau JSON contenant les noms des fichiers (sans l'extension `.md`).
+
   ```json
   ["git-introduction"]
   ```
 
 ### 3. Lire une note spécifique
+
 - **URL** : `GET /notes/:slug`
 - **Exemple** : `GET /notes/git-introduction`
 - **Réponse** : Le contenu HTML généré à partir du fichier Markdown correspondant.
