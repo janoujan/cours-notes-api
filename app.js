@@ -33,6 +33,6 @@ app.get("/notes/:slug", (req, res) => {
   const markdownContent = fs.readFileSync(filePath, "utf-8");
   const htmlContent = marked(markdownContent);
   res.send(htmlContent);
-};
+});
 
 export default app;
