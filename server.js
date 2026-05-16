@@ -12,8 +12,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 
 // Port d'écoute du serveur
-const PORT = 3000;
-
+const PORT = 3003;
 // Chemin absolu vers le dossier contenant les fichiers Markdown
 const NOTES_DIR = path.join(__dirname, "notes");
 
