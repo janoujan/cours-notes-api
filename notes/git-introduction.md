@@ -5,3 +5,5 @@
 ## Objectif
 
 Suivre les modifications du code dans le temps.
+Collaborer sur des projets de code open-source.
+et faire des carrés verts :D
