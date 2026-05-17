@@ -7,9 +7,9 @@ name: CI
 # - Lors d’une Pull Request vers main
 on:
   push:
-    branches: ["main", "feature/*"]
+    branches: ["main"]
   pull_request:
-    branches: ["main", "feature/*"]
+    branches: ["main"]
 
 # Définition des jobs
 # Un workflow peut contenir plusieurs jobs.
